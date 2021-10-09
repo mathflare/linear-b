@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&display=swap");
+
+body {
+  background-color: hsl(210, 11%, 15%);
+  color: hsl(0, 0%, 90%);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin-top: 6em;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.bg-dark {
+  background-color: hsl(210, 11%, 15%) !important;
+}
+
+.navbar-dark {
+  border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.underline {
+  text-decoration: underline hsl(45, 100%, 51%);
+  -webkit-text-decoration-style: wavy;
+  -moz-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+}
+
+textarea {
+  background-color: hsl(210, 11%, 15%) !important;
+  color: hsl(0, 0%, 100%) !important;
+  font-family: "Noto Sans Linear B", sans-serif;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+pre {
+  font-family: "Noto Sans Linear B", sans-serif;
+  padding: 2em;
+  background-color: hsl(210, 11%, 20%);
+  width: 360px;
+}
+
+.table {
+  color: hsl(0, 0%, 90%);
+}

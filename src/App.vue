@@ -1,25 +1,28 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <Navbar brand="Latin to Linear B" />
+  <div class="container">
+    <h1>
+      Translate <span class="underline">Latin</span> to
+      <span class="underline">Linear B</span>
+    </h1>
+    <hr />
+    <Translator class="my-5" />
+    <br />
+    <br />
+    <p>character mapping table comming soon</p>
+  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Navbar from "./components/Navbar.vue";
+import Translator from "./components/Translator.vue";
+//import CharTable from "./components/CharTable.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Navbar,
+    Translator,
   },
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
