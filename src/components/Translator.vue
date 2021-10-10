@@ -99,7 +99,17 @@ export default {
         .replace(/ka/g, "𐀏")
         .replace(/ja/g, "𐀊")
         .replace(/da/g, "𐀅")
-        .replace(/a/g, "𐀀");
+        .replace(/a/g, "𐀀")
+        .replace(/10/g, "𐄐")
+        .replace(/1/g, "𐄇")
+        .replace(/2/g, "𐄈")
+        .replace(/3/g, "𐄉")
+        .replace(/4/g, "𐄊")
+        .replace(/5/g, "𐄋")
+        .replace(/6/g, "𐄌")
+        .replace(/7/g, "𐄍")
+        .replace(/8/g, "𐄎")
+        .replace(/9/g, "𐄏");
     },
     clearForm: function () {
       this.text = "";
