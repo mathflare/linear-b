@@ -59,3 +59,9 @@ a.text-muted:focus {
 a.text-muted:active {
   color: hsl(208, 7%, 68%) !important;
 }
+
+textarea.form-control:active,
+textarea.form-control:focus {
+  box-shadow: 0 0 0 0.25rem hsla(0, 0%, 100%, 0.7) !important;
+  border-color: hsla(0, 0%, 100%, 0.7) !important;
+}

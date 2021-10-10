@@ -6,7 +6,7 @@
 2. Install [Node.js](https://nodejs.org/en/)
 3. Install the [Vue Cli](https://cli.vuejs.org/guide/installation.html)
 4. Run `npm install`
-5. Run `npm start`
+5. Run `npm run serve`
 
 ## License
 
