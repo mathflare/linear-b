@@ -1,30 +1,32 @@
 <template>
-  <label for="text"><h4>Enter your text in latin characters:</h4></label>
-  <textarea
-    class="form-control"
-    id="text"
-    v-model="text"
-    @input="translate()"
-    spellcheck="false"
-    required
-  ></textarea>
-  <br />
-  <label for="result"><h4>Result in Linear B:</h4></label>
-  <textarea
-    class="form-control"
-    id="result"
-    v-model="result"
-    readonly
-  ></textarea>
-  <br />
-  <button
-    type="button"
-    class="btn btn-danger"
-    style="margin-right: 0.5em"
-    @click="clear()"
-  >
-    Clear All
-  </button>
+  <form @submit.prevent spellcheck="false" class="my-4">
+    <label for="text"><h4>Enter your text in latin characters:</h4></label>
+    <textarea
+      class="form-control"
+      id="text"
+      v-model="text"
+      @input="translate()"
+      spellcheck="false"
+      required
+    ></textarea>
+    <br />
+    <label for="result"><h4>Result in Linear B:</h4></label>
+    <textarea
+      class="form-control"
+      id="result"
+      v-model="result"
+      readonly
+    ></textarea>
+    <br />
+    <button
+      type="button"
+      class="btn btn-outline-danger"
+      style="margin-right: 0.5em"
+      @click="clearForm()"
+    >
+      Clear All
+    </button>
+  </form>
 </template>
 
 <script>
@@ -99,10 +101,10 @@ export default {
         .replace(/da/g, "𐀅")
         .replace(/a/g, "𐀀");
     },
-  },
-  clear: function () {
-    this.text = "";
-    this.result = "";
+    clearForm: function () {
+      this.text = "";
+      this.result = "";
+    },
   },
 };
 </script>

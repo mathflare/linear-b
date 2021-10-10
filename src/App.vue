@@ -1,15 +1,34 @@
 <template>
-  <Navbar brand="Latin to Linear B" />
+  <Navbar brand="MathFlare - Latin to Linear B" />
   <div class="container">
     <h1>
-      Translate <span class="underline">Latin</span> to
-      <span class="underline">Linear B</span>
+      Translate <span style="color: hsl(162, 100%, 32%)">Latin</span> to
+      <span style="color: hsl(202, 100%, 35%)">Linear B</span>
     </h1>
     <hr />
-    <Translator class="my-5" />
-    <br />
+    <Translator />
     <br />
     <p>character mapping table comming soon</p>
+    <hr />
+    <p class="text-muted user-select-none">
+      <a
+        href="https://github.com/mathflare/linear-b"
+        target="_blank"
+        class="text-muted"
+        ><i class="bi bi-github"></i> GitHub</a
+      >
+      |
+      <a href="https://twitter.com/mathflare" target="_blank" class="text-muted"
+        ><i class="bi bi-twitter"></i> Twitter</a
+      >
+      |
+      <a
+        href="https://www.instagram.com/mathflare"
+        target="_blank"
+        class="text-muted"
+        ><i class="bi bi-instagram"></i> Instagram</a
+      >
+    </p>
   </div>
 </template>
 
