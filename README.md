@@ -10,7 +10,7 @@
 
 ## License
 
-Latin To Linear B Translator is licensed under the [MIT license](LICENSE.md).
+Latin To Linear B Translator is licensed under the [MIT license](LICENSE).
 
 ## Contact the authors
 
